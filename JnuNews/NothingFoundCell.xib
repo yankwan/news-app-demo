@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="NothingFoundCell" rowHeight="80" id="FJ2-B7-AlB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FJ2-B7-AlB" id="enQ-lK-rdD">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="暂无数据" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="17M-9c-zsS">
+                        <rect key="frame" x="126" y="29" width="68" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="17M-9c-zsS" firstAttribute="leading" secondItem="enQ-lK-rdD" secondAttribute="leadingMargin" constant="118" id="2Vs-Z8-adn"/>
+                    <constraint firstItem="17M-9c-zsS" firstAttribute="top" secondItem="enQ-lK-rdD" secondAttribute="topMargin" constant="21" id="gZj-5z-ujE"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="17M-9c-zsS" secondAttribute="trailing" constant="118" id="jNj-lX-t0L"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="17M-9c-zsS" secondAttribute="bottom" constant="22" id="uGq-ln-tdF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="261" y="197"/>
+        </tableViewCell>
+    </objects>
+</document>

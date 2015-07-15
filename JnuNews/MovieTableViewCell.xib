@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MovieTableViewCell" id="U5c-Rh-GSs" customClass="MovieTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="128"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="U5c-Rh-GSs" id="Xiy-x1-ty7">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Azt-L6-vWo">
+                        <rect key="frame" x="8" y="8" width="76" height="112"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="76" id="fQf-Zt-m4u"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="国产良心动画，颠覆传统西游" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fAc-4c-bno">
+                        <rect key="frame" x="98" y="52" width="221" height="23"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="2015-07-15 20:30" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fMk-sA-HNM">
+                        <rect key="frame" x="98" y="100" width="108" height="20"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="25元" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YnN-cF-865">
+                        <rect key="frame" x="271" y="100" width="36" height="20"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                        <color key="textColor" red="0.83350633740000002" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="西游记之大圣归来" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Vq-BP-BbX">
+                        <rect key="frame" x="98" y="13" width="144" height="21"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IMAX 3D" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vny-Vh-c68">
+                        <rect key="frame" x="261" y="13" width="52" height="22"/>
+                        <color key="backgroundColor" red="0.31641364296923075" green="0.89155271589999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="52" id="iAF-RW-rBJ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Azt-L6-vWo" firstAttribute="bottom" secondItem="fMk-sA-HNM" secondAttribute="bottom" id="4dS-Vu-wul"/>
+                    <constraint firstItem="fMk-sA-HNM" firstAttribute="bottom" secondItem="Xiy-x1-ty7" secondAttribute="bottomMargin" id="9vr-D5-1xZ"/>
+                    <constraint firstItem="fMk-sA-HNM" firstAttribute="top" secondItem="fAc-4c-bno" secondAttribute="bottom" constant="25" id="BDV-yW-0Ak"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="YnN-cF-865" secondAttribute="trailing" constant="5" id="Dfl-qU-7Pn"/>
+                    <constraint firstItem="Vny-Vh-c68" firstAttribute="leading" secondItem="0Vq-BP-BbX" secondAttribute="trailing" constant="19" id="GDD-6V-oHi"/>
+                    <constraint firstItem="Vny-Vh-c68" firstAttribute="top" secondItem="Xiy-x1-ty7" secondAttribute="topMargin" constant="5" id="JZ5-Zk-NP7"/>
+                    <constraint firstItem="YnN-cF-865" firstAttribute="leading" secondItem="fMk-sA-HNM" secondAttribute="trailing" constant="65" id="JuM-hj-Kov"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="fAc-4c-bno" secondAttribute="trailing" constant="-7" id="Ogm-bW-bPc"/>
+                    <constraint firstItem="YnN-cF-865" firstAttribute="top" secondItem="fAc-4c-bno" secondAttribute="bottom" constant="25" id="Ozf-iV-fVl"/>
+                    <constraint firstItem="fAc-4c-bno" firstAttribute="leading" secondItem="Azt-L6-vWo" secondAttribute="trailing" constant="14" id="P6H-9G-qTJ"/>
+                    <constraint firstItem="0Vq-BP-BbX" firstAttribute="leading" secondItem="Azt-L6-vWo" secondAttribute="trailing" constant="14" id="Pd3-ex-aXd"/>
+                    <constraint firstItem="0Vq-BP-BbX" firstAttribute="top" secondItem="Xiy-x1-ty7" secondAttribute="topMargin" constant="5" id="Q1Q-T4-CMp"/>
+                    <constraint firstItem="Azt-L6-vWo" firstAttribute="bottom" secondItem="YnN-cF-865" secondAttribute="bottom" id="Qru-AH-hRL"/>
+                    <constraint firstItem="YnN-cF-865" firstAttribute="bottom" secondItem="Xiy-x1-ty7" secondAttribute="bottomMargin" id="R8e-fC-JMc"/>
+                    <constraint firstItem="Azt-L6-vWo" firstAttribute="top" secondItem="Xiy-x1-ty7" secondAttribute="topMargin" id="TQE-X2-7rU"/>
+                    <constraint firstItem="fMk-sA-HNM" firstAttribute="leading" secondItem="Azt-L6-vWo" secondAttribute="trailing" constant="14" id="TSp-eg-3tw"/>
+                    <constraint firstItem="0Vq-BP-BbX" firstAttribute="leading" secondItem="Azt-L6-vWo" secondAttribute="trailing" constant="14" id="cDj-X0-wFh"/>
+                    <constraint firstItem="fAc-4c-bno" firstAttribute="top" secondItem="0Vq-BP-BbX" secondAttribute="bottom" constant="19" id="gSg-LB-vT0"/>
+                    <constraint firstItem="YnN-cF-865" firstAttribute="top" secondItem="fAc-4c-bno" secondAttribute="bottom" constant="25" id="i1F-dO-Vaf"/>
+                    <constraint firstItem="Azt-L6-vWo" firstAttribute="leading" secondItem="Xiy-x1-ty7" secondAttribute="leadingMargin" id="iXj-Yz-728"/>
+                    <constraint firstItem="fAc-4c-bno" firstAttribute="top" secondItem="Vny-Vh-c68" secondAttribute="bottom" constant="17" id="nwS-Yi-Q8O"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Vny-Vh-c68" secondAttribute="trailing" constant="-1" id="o2u-nl-dPC"/>
+                    <constraint firstItem="YnN-cF-865" firstAttribute="leading" secondItem="fMk-sA-HNM" secondAttribute="trailing" constant="65" id="rzB-H8-WLJ"/>
+                    <constraint firstItem="Azt-L6-vWo" firstAttribute="bottom" secondItem="Xiy-x1-ty7" secondAttribute="bottomMargin" id="sIh-H6-yD4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="movieDateLabel" destination="fMk-sA-HNM" id="15f-jV-OgF"/>
+                <outlet property="movieImageView" destination="Azt-L6-vWo" id="Kfo-Bc-q3k"/>
+                <outlet property="movieNameLabel" destination="0Vq-BP-BbX" id="I5P-G1-QR0"/>
+                <outlet property="moviePriceLabel" destination="YnN-cF-865" id="r2N-39-0YO"/>
+                <outlet property="movieStyleLabel" destination="Vny-Vh-c68" id="OAx-Mg-Omf"/>
+                <outlet property="movieSubLabel" destination="fAc-4c-bno" id="Rct-KB-eIK"/>
+            </connections>
+            <point key="canvasLocation" x="259" y="263"/>
+        </tableViewCell>
+    </objects>
+</document>
