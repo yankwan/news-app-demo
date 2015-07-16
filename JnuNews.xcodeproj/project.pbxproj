@@ -156,11 +156,11 @@
 		A3C11EF01B3ADA5800D73F63 /* JnuNews */ = {
 			isa = PBXGroup;
 			children = (
-				A33F0B111B5378B600362B79 /* MovieTableViewCell.h */,
-				A33F0B121B5378B600362B79 /* MovieTableViewCell.m */,
 				A3C11F1A1B3ADA6F00D73F63 /* SWRevealViewController */,
 				A3C11EF51B3ADA5800D73F63 /* AppDelegate.h */,
 				A3C11EF61B3ADA5800D73F63 /* AppDelegate.m */,
+				A33F0B111B5378B600362B79 /* MovieTableViewCell.h */,
+				A33F0B121B5378B600362B79 /* MovieTableViewCell.m */,
 				A3C11EFB1B3ADA5800D73F63 /* ViewController.h */,
 				A3C11EFC1B3ADA5800D73F63 /* ViewController.m */,
 				A3C11EFE1B3ADA5800D73F63 /* Main.storyboard */,
