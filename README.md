@@ -5,8 +5,9 @@
 
 ![image](https://github.com/yankwan/JnuNews/raw/master/Readme/cell2.png)
 
-图片通过<UIImageView+AFNetworking.h>下的setImageWithURL:方法异步加载并显示图片
+图片通过UIImageView+AFNetworking.h下的setImageWithURL:方法异步加载并显示图片
 
+</br>
 ***相关技术实现：***
 
 1. 新闻资讯模块（校园招聘、实习兼职、礼堂观影、校内通知...）
@@ -17,6 +18,7 @@
 
 4. 数据持久化
 
+</br>
 ***第三方开源库：***
 
 1. [AFNetworking](https://github.com/AFNetworking/AFNetworking) 安装使用参考其github首页
