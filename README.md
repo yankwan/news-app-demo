@@ -25,6 +25,8 @@
 
 2. [BmobSDK](http://www.bmob.cn/) 使用参考其官网
 
+3. [SWRevealViewController](https://github.com/John-Lluch/SWRevealViewController) 其github上面有使用案例与教程
+
 </br>
 效果图：
 
