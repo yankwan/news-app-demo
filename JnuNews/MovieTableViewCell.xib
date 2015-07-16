@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <objects>
@@ -25,16 +25,10 @@
                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="2015-07-15 20:30" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fMk-sA-HNM">
-                        <rect key="frame" x="98" y="100" width="108" height="20"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" misplaced="YES" text="2015-07-15 20:30" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fMk-sA-HNM">
+                        <rect key="frame" x="98" y="100" width="122" height="20"/>
                         <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="25元" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YnN-cF-865">
-                        <rect key="frame" x="271" y="100" width="36" height="20"/>
-                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                        <color key="textColor" red="0.83350633740000002" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="西游记之大圣归来" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Vq-BP-BbX">
@@ -44,7 +38,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IMAX 3D" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vny-Vh-c68">
-                        <rect key="frame" x="261" y="13" width="52" height="22"/>
+                        <rect key="frame" x="261" y="13" width="52" height="23"/>
                         <color key="backgroundColor" red="0.31641364296923075" green="0.89155271589999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="52" id="iAF-RW-rBJ"/>
@@ -53,33 +47,50 @@
                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="25元" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YnN-cF-865">
+                        <rect key="frame" x="261" y="100" width="51" height="20"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                        <color key="textColor" red="0.83350633740000002" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
                 <constraints>
+                    <constraint firstItem="YnN-cF-865" firstAttribute="top" secondItem="fAc-4c-bno" secondAttribute="bottom" constant="25" id="0c1-Ed-N4W"/>
+                    <constraint firstItem="YnN-cF-865" firstAttribute="bottom" secondItem="Xiy-x1-ty7" secondAttribute="bottomMargin" id="2tK-GI-gei"/>
                     <constraint firstItem="Azt-L6-vWo" firstAttribute="bottom" secondItem="fMk-sA-HNM" secondAttribute="bottom" id="4dS-Vu-wul"/>
+                    <constraint firstItem="YnN-cF-865" firstAttribute="leading" secondItem="fMk-sA-HNM" secondAttribute="trailing" constant="65" id="8WK-6V-4no"/>
                     <constraint firstItem="fMk-sA-HNM" firstAttribute="bottom" secondItem="Xiy-x1-ty7" secondAttribute="bottomMargin" id="9vr-D5-1xZ"/>
+                    <constraint firstItem="YnN-cF-865" firstAttribute="leading" secondItem="fMk-sA-HNM" secondAttribute="trailing" constant="41" id="AgA-jz-Jlt"/>
                     <constraint firstItem="fMk-sA-HNM" firstAttribute="top" secondItem="fAc-4c-bno" secondAttribute="bottom" constant="25" id="BDV-yW-0Ak"/>
-                    <constraint firstAttribute="trailingMargin" secondItem="YnN-cF-865" secondAttribute="trailing" constant="5" id="Dfl-qU-7Pn"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="YnN-cF-865" secondAttribute="trailing" constant="-1" id="BXI-k8-g9f"/>
                     <constraint firstItem="Vny-Vh-c68" firstAttribute="leading" secondItem="0Vq-BP-BbX" secondAttribute="trailing" constant="19" id="GDD-6V-oHi"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="YnN-cF-865" secondAttribute="trailing" constant="-2" id="J0c-Rt-4qM"/>
                     <constraint firstItem="Vny-Vh-c68" firstAttribute="top" secondItem="Xiy-x1-ty7" secondAttribute="topMargin" constant="5" id="JZ5-Zk-NP7"/>
-                    <constraint firstItem="YnN-cF-865" firstAttribute="leading" secondItem="fMk-sA-HNM" secondAttribute="trailing" constant="65" id="JuM-hj-Kov"/>
+                    <constraint firstItem="YnN-cF-865" firstAttribute="top" secondItem="fMk-sA-HNM" secondAttribute="top" id="Jpo-Ja-PVM"/>
+                    <constraint firstItem="YnN-cF-865" firstAttribute="leading" secondItem="fMk-sA-HNM" secondAttribute="trailing" constant="47" id="NUg-zg-hJB"/>
                     <constraint firstAttribute="trailingMargin" secondItem="fAc-4c-bno" secondAttribute="trailing" constant="-7" id="Ogm-bW-bPc"/>
-                    <constraint firstItem="YnN-cF-865" firstAttribute="top" secondItem="fAc-4c-bno" secondAttribute="bottom" constant="25" id="Ozf-iV-fVl"/>
                     <constraint firstItem="fAc-4c-bno" firstAttribute="leading" secondItem="Azt-L6-vWo" secondAttribute="trailing" constant="14" id="P6H-9G-qTJ"/>
                     <constraint firstItem="0Vq-BP-BbX" firstAttribute="leading" secondItem="Azt-L6-vWo" secondAttribute="trailing" constant="14" id="Pd3-ex-aXd"/>
                     <constraint firstItem="0Vq-BP-BbX" firstAttribute="top" secondItem="Xiy-x1-ty7" secondAttribute="topMargin" constant="5" id="Q1Q-T4-CMp"/>
-                    <constraint firstItem="Azt-L6-vWo" firstAttribute="bottom" secondItem="YnN-cF-865" secondAttribute="bottom" id="Qru-AH-hRL"/>
-                    <constraint firstItem="YnN-cF-865" firstAttribute="bottom" secondItem="Xiy-x1-ty7" secondAttribute="bottomMargin" id="R8e-fC-JMc"/>
                     <constraint firstItem="Azt-L6-vWo" firstAttribute="top" secondItem="Xiy-x1-ty7" secondAttribute="topMargin" id="TQE-X2-7rU"/>
                     <constraint firstItem="fMk-sA-HNM" firstAttribute="leading" secondItem="Azt-L6-vWo" secondAttribute="trailing" constant="14" id="TSp-eg-3tw"/>
                     <constraint firstItem="0Vq-BP-BbX" firstAttribute="leading" secondItem="Azt-L6-vWo" secondAttribute="trailing" constant="14" id="cDj-X0-wFh"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="YnN-cF-865" secondAttribute="trailing" id="fAB-C3-kJL"/>
                     <constraint firstItem="fAc-4c-bno" firstAttribute="top" secondItem="0Vq-BP-BbX" secondAttribute="bottom" constant="19" id="gSg-LB-vT0"/>
-                    <constraint firstItem="YnN-cF-865" firstAttribute="top" secondItem="fAc-4c-bno" secondAttribute="bottom" constant="25" id="i1F-dO-Vaf"/>
                     <constraint firstItem="Azt-L6-vWo" firstAttribute="leading" secondItem="Xiy-x1-ty7" secondAttribute="leadingMargin" id="iXj-Yz-728"/>
                     <constraint firstItem="fAc-4c-bno" firstAttribute="top" secondItem="Vny-Vh-c68" secondAttribute="bottom" constant="17" id="nwS-Yi-Q8O"/>
                     <constraint firstAttribute="trailingMargin" secondItem="Vny-Vh-c68" secondAttribute="trailing" constant="-1" id="o2u-nl-dPC"/>
-                    <constraint firstItem="YnN-cF-865" firstAttribute="leading" secondItem="fMk-sA-HNM" secondAttribute="trailing" constant="65" id="rzB-H8-WLJ"/>
                     <constraint firstItem="Azt-L6-vWo" firstAttribute="bottom" secondItem="Xiy-x1-ty7" secondAttribute="bottomMargin" id="sIh-H6-yD4"/>
+                    <constraint firstItem="YnN-cF-865" firstAttribute="bottom" secondItem="fMk-sA-HNM" secondAttribute="bottom" id="w7W-Ga-JxD"/>
                 </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="8WK-6V-4no"/>
+                        <exclude reference="BXI-k8-g9f"/>
+                        <exclude reference="J0c-Rt-4qM"/>
+                        <exclude reference="NUg-zg-hJB"/>
+                    </mask>
+                </variation>
             </tableViewCellContentView>
             <connections>
                 <outlet property="movieDateLabel" destination="fMk-sA-HNM" id="15f-jV-OgF"/>

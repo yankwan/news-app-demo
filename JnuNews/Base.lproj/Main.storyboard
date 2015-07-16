@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -110,7 +110,7 @@
                                             <constraint firstAttribute="height" constant="21" id="YLr-UW-oal"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="zRj-fK-LQj">
@@ -198,19 +198,13 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="az5-qO-vKz" id="mvz-w1-hx9">
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="校园招聘" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Azp-qg-XFC">
-                                            <rect key="frame" x="35" y="11" width="80" height="22"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="校园招聘" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Azp-qg-XFC">
+                                            <rect key="frame" x="35" y="11" width="150" height="22"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <constraints>
-                                        <constraint firstItem="Azp-qg-XFC" firstAttribute="top" secondItem="mvz-w1-hx9" secondAttribute="topMargin" constant="3" id="R6D-jO-sxg"/>
-                                        <constraint firstItem="Azp-qg-XFC" firstAttribute="leading" secondItem="mvz-w1-hx9" secondAttribute="leadingMargin" constant="27" id="ckU-Mi-VmR"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="Azp-qg-XFC" secondAttribute="trailing" constant="197" id="jaP-1N-a84"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="Azp-qg-XFC" secondAttribute="bottom" constant="3" id="xmi-S5-9S3"/>
-                                    </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <segue destination="Ura-dc-J2M" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="Zzr-Fj-Xpo"/>
@@ -221,19 +215,13 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uMW-zU-Khj" id="v3E-La-acp">
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="实习兼职" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hag-KF-1ct">
-                                            <rect key="frame" x="35" y="11" width="80" height="22"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="实习兼职" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hag-KF-1ct">
+                                            <rect key="frame" x="35" y="11" width="150" height="22"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <constraints>
-                                        <constraint firstAttribute="bottomMargin" secondItem="Hag-KF-1ct" secondAttribute="bottom" constant="3" id="19c-Vo-sUu"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="Hag-KF-1ct" secondAttribute="trailing" constant="197" id="6LS-Qn-qLf"/>
-                                        <constraint firstItem="Hag-KF-1ct" firstAttribute="top" secondItem="v3E-La-acp" secondAttribute="topMargin" constant="3" id="Tqo-kq-KlN"/>
-                                        <constraint firstItem="Hag-KF-1ct" firstAttribute="leading" secondItem="v3E-La-acp" secondAttribute="leadingMargin" constant="27" id="gbi-bz-UaN"/>
-                                    </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <segue destination="Ura-dc-J2M" kind="custom" identifier="showRecruitInfo" customClass="SWRevealViewControllerSeguePushController" id="DSQ-8x-9PQ"/>
@@ -244,19 +232,13 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="IUF-a3-nek" id="3tk-01-Ro3">
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="礼堂观影" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mWX-XD-Z0d">
-                                            <rect key="frame" x="35" y="11" width="80" height="22"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="礼堂观影" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mWX-XD-Z0d">
+                                            <rect key="frame" x="35" y="11" width="150" height="22"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <constraints>
-                                        <constraint firstAttribute="trailingMargin" secondItem="mWX-XD-Z0d" secondAttribute="trailing" constant="197" id="en2-jR-VVL"/>
-                                        <constraint firstItem="mWX-XD-Z0d" firstAttribute="top" secondItem="3tk-01-Ro3" secondAttribute="topMargin" constant="3" id="kNj-bh-xvS"/>
-                                        <constraint firstItem="mWX-XD-Z0d" firstAttribute="leading" secondItem="3tk-01-Ro3" secondAttribute="leadingMargin" constant="27" id="mkk-RP-Vtg"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="mWX-XD-Z0d" secondAttribute="bottom" constant="3" id="rCu-TL-x13"/>
-                                    </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <segue destination="ZTT-pj-VE0" kind="custom" identifier="showMoiveInfo" customClass="SWRevealViewControllerSeguePushController" id="jfR-Of-nm1"/>
@@ -267,19 +249,13 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3X2-12-0mA" id="pbg-gF-51P">
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="校内通知" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Zk-O2-his">
-                                            <rect key="frame" x="35" y="11" width="80" height="22"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="校内通知" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Zk-O2-his">
+                                            <rect key="frame" x="35" y="11" width="150" height="22"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <constraints>
-                                        <constraint firstAttribute="trailingMargin" secondItem="9Zk-O2-his" secondAttribute="trailing" constant="197" id="6PZ-5m-9F5"/>
-                                        <constraint firstItem="9Zk-O2-his" firstAttribute="top" secondItem="pbg-gF-51P" secondAttribute="topMargin" constant="3" id="AnV-xu-0kf"/>
-                                        <constraint firstItem="9Zk-O2-his" firstAttribute="leading" secondItem="pbg-gF-51P" secondAttribute="leadingMargin" constant="27" id="kGS-Be-LeL"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="9Zk-O2-his" secondAttribute="bottom" constant="3" id="zGm-h2-9y6"/>
-                                    </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <segue destination="Ura-dc-J2M" kind="custom" identifier="showRecruitInfo" customClass="SWRevealViewControllerSeguePushController" id="UP0-qi-Ylv"/>
@@ -290,19 +266,13 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RCQ-8T-kpn" id="NTh-ye-ByP">
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我的收藏" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="evn-nS-yhM">
-                                            <rect key="frame" x="35" y="11" width="80" height="22"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="我的收藏" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="evn-nS-yhM">
+                                            <rect key="frame" x="35" y="11" width="150" height="22"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <constraints>
-                                        <constraint firstAttribute="bottomMargin" secondItem="evn-nS-yhM" secondAttribute="bottom" constant="3" id="9F2-iT-kQd"/>
-                                        <constraint firstItem="evn-nS-yhM" firstAttribute="top" secondItem="NTh-ye-ByP" secondAttribute="topMargin" constant="3" id="EfG-u3-510"/>
-                                        <constraint firstItem="evn-nS-yhM" firstAttribute="leading" secondItem="NTh-ye-ByP" secondAttribute="leadingMargin" constant="27" id="kAg-qv-36e"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="evn-nS-yhM" secondAttribute="trailing" constant="197" id="pkH-kl-U4l"/>
-                                    </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
