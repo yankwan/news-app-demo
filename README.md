@@ -1,5 +1,5 @@
-# JnuNews 校园新闻客户端
-网上看到[mexiQQ](https://github.com/mexiQQ)的一个[类新闻客户端开源代码](https://github.com/mexiQQ/VReader-iOS), 便研究了下在其基础上做了些修改，给自己学校做了个校园资讯新闻的客户端。模块方面采用自定义的tableViewCell，如：
+#  新闻客户端DEMO
+网上看到[mexiQQ](https://github.com/mexiQQ)的一个[类新闻客户端开源代码](https://github.com/mexiQQ/VReader-iOS), 便研究了下在其基础上做了些修改，尝试做了个校园资讯新闻的客户端。模块方面采用自定义的tableViewCell，如：
 
 ![image](https://github.com/yankwan/JnuNews/raw/master/Readme/cell1.png)
 
